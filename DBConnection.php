@@ -2,8 +2,8 @@
 	class Database{
 		private $host = "localhost";
 		private $db_name = "sugistco_sugist";
-		private $username = "sugistco_abba";
-		private $password = "z}W*wZ2mN3b_";
+		private $username = "";
+		private $password = "";
 		private $table_name = "user";
 		public $conn;
 		private $opt = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
